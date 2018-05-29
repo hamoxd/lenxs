@@ -11,19 +11,6 @@ client.on('message', message => {
       }
 });
 
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.on('ready', () => {
-    console.log('I am ready!');
-});
-
-client.on('message', message => {
-    if (message.content === 'ping') {
-        message.reply('pong');
-      }
-});
-
 
 
 
@@ -54,9 +41,9 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField("『XxGamingTeamxXBOT』 『اسم البوت』", true)
+      .addField("『ZOMBIE BOT』 『اسم البوت』", true)
       
-      .addField("『@ ???』 『مصمم البوت』", true)
+      .addField("『@ @! Z |ĦÂмØ♚#6947』 『مصمم البوت』", true)
       
       .addField("『^help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
       
@@ -362,7 +349,7 @@ client.on("message", message => {
 
 ^^support| القسم الثاني  الدعم الفني و المساعدة
 
-القسم الثالث مصمم البوت |??7 
+القسم الثالث مصمم البوت | @! Z |ĦÂмØ♚#6947 
 
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
 
@@ -421,7 +408,7 @@ client.on("message", message => {
 
 ^^support| القسم الثاني  الدعم الفني و المساعدة
 
-القسم الثالث مصمم البوت | @???
+القسم الثالث مصمم البوت | @! Z |ĦÂмØ♚#6947
 
 
 
@@ -480,7 +467,7 @@ client.on("message", message => {
 
 ^^support| القسم الثاني  الدعم الفني و المساعدة
 
-القسم الثالث مصمم البوت | @???
+القسم الثالث مصمم البوت | @! Z |ĦÂмØ♚#6947
 
 
 `)
@@ -970,7 +957,7 @@ client.on('message', message=>{
   .setColor('RANDOM')
   .setThumbnail(`${mentionavatar.avatarURL}`)
   .addField("***شكرا الانضمامك الينا***" ,mentionavatar.username )
-  .setDescription('***➥ Welcome To XGT .. :rose: :sparkles:***')
+  .setDescription('***𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 ℂ𝕃𝔸ℕ ℤ***')
   .setImage('http://www.imgion.com/images/01/Welcome-buddy.jpg')
    message.channel.sendEmbed(EsTeKnAN);
   }
@@ -1325,10 +1312,6 @@ client.on('message', function(message) {
 
 
 
-
-
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
 
 
 // THIS  MUST  BE  THIS  WAY
